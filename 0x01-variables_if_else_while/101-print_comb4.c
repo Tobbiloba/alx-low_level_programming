@@ -28,12 +28,14 @@ int main(void)
 					putchar(hund + '0');
 					putchar(i + '0');
 					putchar(j + '0');
-				}
+
 					if (hund < 7)
 					{
 						putchar(',');
 						putchar(' ');
 					}
+				}
+
 				j++;
 			}
 			i++;
