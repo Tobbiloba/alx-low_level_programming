@@ -16,10 +16,11 @@ int main(void)
 	while (hund < 8)
 	{
 		int i = tens;
+		int k = unit;
 
 		while (tens <= 8 && i <= 8)
 		{
-			int j = unit;
+			int j = k;
 
 			while (unit <= 9 && j <= 9)
 			{
@@ -28,7 +29,6 @@ int main(void)
 					putchar(hund + '0');
 					putchar(i + '0');
 					putchar(j + '0');
-
 					if (hund < 7)
 					{
 						putchar(',');
@@ -39,6 +39,7 @@ int main(void)
 				j++;
 			}
 			i++;
+			k++;
 		}
 		unit++;
 		tens++;
