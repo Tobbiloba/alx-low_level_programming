@@ -23,10 +23,12 @@ int main(void)
 
 			while (unit <= 9 && j <= 9)
 			{
-				putchar(hund + '0');
-				putchar(i + '0');
-				putchar(j + '0');
-
+				if (i != j)
+				{
+					putchar(hund + '0');
+					putchar(i + '0');
+					putchar(j + '0');
+				}
 					if (hund < 7)
 					{
 						putchar(',');
