@@ -10,7 +10,6 @@ int main(void)
 	int hund = 0;
 
 	int tens = 1;
-
 	int unit = 2;
 
 	while (hund < 8)
@@ -45,5 +44,6 @@ int main(void)
 		tens++;
 		hund++;
 	}
+	putchar("\n");
 	return (0);
 }
