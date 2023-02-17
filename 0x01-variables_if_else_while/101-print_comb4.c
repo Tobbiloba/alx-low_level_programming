@@ -44,6 +44,6 @@ int main(void)
 		tens++;
 		hund++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
