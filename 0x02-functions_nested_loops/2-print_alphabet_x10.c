@@ -10,5 +10,14 @@
 #include "main.h"
 void print_alphabet_x10(void);
 {
-	return (write(1, &c, 1));
+	int i = 0;
+
+	while (i < 10)
+	{
+		for (char c = 'a'; c <= 'z'; c++)
+		{
+			putchar(c);
+		}
+		i++;
+	}
 }
