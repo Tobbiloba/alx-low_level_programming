@@ -1,8 +1,12 @@
-#include "main.h"
+#include <unistd.h>
 /**
- * main - A function that prints all lowecase alphabets 10 times
- * Return: putchar
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
+#include "main.h"
 void print_alphabet_x10(void)
 {
 	int i = 0;
