@@ -1,4 +1,5 @@
 #include <unistd.h>
+
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
@@ -7,18 +8,7 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 #include "main.h"
-void print_alphabet_x10(void)
+void print_alphabet_x10(void);
 {
-	int i = 0;
-
-	while (i < 10)
-	{
-		for (char a = 'a'; a <= 'z'; a++)
-		{
-			_puthar(a);
-		}
-		i++;
-	}
-	_putchar('\n');
-	return (0);
+	return (write(1, &c, 1));
 }
