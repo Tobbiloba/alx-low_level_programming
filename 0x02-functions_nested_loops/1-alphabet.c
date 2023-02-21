@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - prints from a to z
- *
  * Return: result
  */
 #include "main.h"
