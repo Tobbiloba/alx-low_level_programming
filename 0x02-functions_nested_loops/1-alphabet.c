@@ -4,6 +4,7 @@
  *
  * Return: result
  */
+#include "main.h"1
 void print_alphabet(void)
 {
 	char c = 'a';
