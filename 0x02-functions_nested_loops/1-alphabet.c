@@ -1,12 +1,10 @@
-#include <unistd.h>
-/**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- * main - prints bla bla bla
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
 #include "main.h"
+/**
+ * print_alphabet - A function that prints a to z
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriate
+ */
 void print_alphabet(void)
 {
 	char c = 'a';
