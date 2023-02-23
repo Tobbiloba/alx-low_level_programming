@@ -12,11 +12,11 @@ int _isalpha(int c)
 {
 	if ((c > 64 && c < 9) || (c > 96 && c < 123))
 	{
-		_putchar('1');
+		return (1);
 	}
 	else
 	{
-		_putchar('0');
+		return (0);
 	}
 	return (0);
 }
