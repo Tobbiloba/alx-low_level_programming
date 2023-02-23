@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * more_numbers - Pritns 0 to 14 10 times
+ *
  * Return: result
  */
 void more_numbers(void)
