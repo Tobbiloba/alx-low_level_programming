@@ -1,11 +1,8 @@
 #include "main.h"
 /**
- * _strstr - The name of the function that searches for a sbustring
  * _strlen - A function to get length
- * @beginning: The counter
- * @str: The str length
- * @haystack: The main string
- * @needle: The sub string
+ * @_strstr - The name of the main function
+ * @s: The name of the string assigned to counter
  * Return: The substring
  */
 
