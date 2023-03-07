@@ -1,27 +1,31 @@
 #include "main.h"
 /**
  * _strstr - The name of the function that searches for a sbustring
- * len - A function to get length
+ * _strlen - A function to get length
  * @str: The str length
  * @haystack: The main string
  * @needle: The sub string
  * Return: The substring
  */
-int len (char *str)
+
+int _strlen(char *s)
 {
-	int num = 0;
+	int length = 0;
 
-	while (str[num] != '\0')
-		num++;
+	while (*s != '\0')
+	{
+		length++;
+		s++;
+	}
 
-	return num;
+	return (length);
 }
 
 char *_strstr(char *haystack, char *needle)
 {
 	int i, j, k;
-	int n = len(haystack);
-	int m = len(needle);
+	int n = _strlen(haystack);
+	int m = _strlen(needle);
 
 	for (i = 0; i <= n - m; i++)
 	{
@@ -40,4 +44,3 @@ char *_strstr(char *haystack, char *needle)
 	}
 	return (0);
 }
-
