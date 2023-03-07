@@ -2,6 +2,7 @@
 /**
  * _strstr - The name of the function that searches for a sbustring
  * _strlen - A function to get length
+ * @beginning: The counter
  * @str: The str length
  * @haystack: The main string
  * @needle: The sub string
