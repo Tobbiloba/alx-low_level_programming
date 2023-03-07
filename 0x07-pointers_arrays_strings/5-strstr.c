@@ -24,6 +24,7 @@ int _strlen(char *s)
 char *_strstr(char *haystack, char *needle)
 {
 	int i, j, k;
+	int beginning = 0;
 	int n = _strlen(haystack);
 	int m = _strlen(needle);
 
@@ -37,9 +38,11 @@ char *_strstr(char *haystack, char *needle)
 			k++;
 			j++;
 		}
+		if (haystack[k] != needle[j])
+			beginning++;
 
 		if (j == m)
-			return (needle);
+			return (&haystack[beginning - 1]);
 
 	}
 	return ('\0');
