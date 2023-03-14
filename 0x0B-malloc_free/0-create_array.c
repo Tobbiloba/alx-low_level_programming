@@ -5,6 +5,8 @@
  * create_array - The name of the function
  * @size: The size of the array
  * @c: The char
+ * Description: creat array of size size and assign char c
+ * Return: Null if not found
  */
 char *create_array(unsigned int size, char c)
 {
